@@ -1,4 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { BiSearchAlt2 } from "react-icons/bi";
+import styles from "./Header.module.css";
 
 const Header = () => {
   return (
