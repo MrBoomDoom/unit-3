@@ -1,8 +1,7 @@
+import axios from "axios"
 import React, {useEffect, useState} from 'react'
-// import React from 'react'
 import AdBanner from './AdBanner'
 import RecipeContainer from './RecipeContainer'
-import axios from "axios"
 
 const HomeScreen = () => {  
 

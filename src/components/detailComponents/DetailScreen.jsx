@@ -19,7 +19,6 @@ const DetailScreen = () => {
     });
   }, []);
 
-  
   return (
     <section>
       <DetailImage image={recipe.image_url} title={recipe.recipe_name} />

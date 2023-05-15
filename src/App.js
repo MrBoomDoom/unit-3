@@ -1,8 +1,8 @@
 import axios from "axios";
+import { useState, useEffect } from "react";
 import "./App.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import { useState, useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import HomeScreen from "./components/homeComponents/HomeScreen";
 import DetailScreen from "./components/detailComponents/DetailScreen";
