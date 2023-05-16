@@ -6,7 +6,7 @@ import Header from "./components/Header";
 import { Route, Routes } from "react-router-dom";
 import HomeScreen from "./components/homeComponents/HomeScreen";
 import DetailScreen from "./components/detailComponents/DetailScreen";
-import NewRecipeScreen from "./components/detailComponents/DetailScreen"
+import NewRecipeScreen from "./components/newRecipeComponents/NewRecipeScreen"
 
 function App() {
   return (
